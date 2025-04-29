@@ -1,14 +1,21 @@
 package com.example.bibliotecaduoc.model;
 import com.example.bibliotecaduoc.model.Libro;
 
-import java.util.Date;
+
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 
 public class Prestamo {
-    public int idPrestamo;
-    public Libro id;
-    public String runSolicitante;
-    public Date fechaSolicitud;
-    public Date fechaEntrega;
-    public int cantidadDias;
-    public int multas;
+    private int idPrestamo;
+    private Libro id;
+    private String runSolicitante;
+    private int fechaSolicitud;
+    private int fechaEntrega;
+    private int cantidadDias;
+    private int multas;
 }
