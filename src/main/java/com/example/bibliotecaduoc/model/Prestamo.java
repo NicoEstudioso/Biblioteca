@@ -1,5 +1,5 @@
 package com.example.bibliotecaduoc.model;
-import com.example.bibliotecaduoc.model.Libro;
+
 
 
 import lombok.AllArgsConstructor;
@@ -12,7 +12,7 @@ import lombok.Data;
 
 public class Prestamo {
     private int idPrestamo;
-    private Libro id;
+    private int libroid;
     private String runSolicitante;
     private int fechaSolicitud;
     private int fechaEntrega;
