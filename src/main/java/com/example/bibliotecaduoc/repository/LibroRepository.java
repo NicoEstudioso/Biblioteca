@@ -2,7 +2,6 @@ package com.example.bibliotecaduoc.repository;
 
 import com.example.bibliotecaduoc.model.Libro;
 import org.springframework.stereotype.Repository;
-
 import java.util.List;
 import java.util.ArrayList;
 

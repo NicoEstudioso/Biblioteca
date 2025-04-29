@@ -34,4 +34,7 @@ public class LibroService {
         return "Libro eliminado";
     }
 
+    public int totalLibros(){
+        return libroRepository.obtenerListaLibros().size();
+    }
 }
