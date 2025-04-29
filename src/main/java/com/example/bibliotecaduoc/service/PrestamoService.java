@@ -1,5 +1,6 @@
 package com.example.bibliotecaduoc.service;
-
+//3CONECTA LA SALIDA DE INTERNET CON EL REPOSITORY
+//CAPA DEL NEGOCIO:REGLAS DE LA EMPRESA
 
 import com.example.bibliotecaduoc.model.Prestamo;
 

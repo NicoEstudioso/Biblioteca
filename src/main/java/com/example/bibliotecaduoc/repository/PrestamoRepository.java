@@ -1,5 +1,5 @@
 package com.example.bibliotecaduoc.repository;
-
+//2.PARA LOS METODOS
 import com.example.bibliotecaduoc.model.Prestamo;
 import org.springframework.stereotype.Repository;
 

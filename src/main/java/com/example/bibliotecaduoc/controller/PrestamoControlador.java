@@ -1,4 +1,5 @@
 package com.example.bibliotecaduoc.controller;
+//4 DISPONIBILIZAR LOS METODOS HACIA AFUERA
 import com.example.bibliotecaduoc.model.Prestamo;
 import com.example.bibliotecaduoc.service.PrestamoService;
 import org.springframework.beans.factory.annotation.Autowired;
